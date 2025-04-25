@@ -12,9 +12,7 @@ And detailed instructions to build from source are available [here](https://gith
 
 ## Setup
 
-I prefer building Neovim from source, and then installing NvChad.
-
-I followed [Dreams of Code's tutorial](https://www.youtube.com/playlist?list=PL05iK6gnYad1sb4iQyqsim_Jc_peZdNXf) to set all of this up.
+I prefer building Neovim from source, and then installing NvChad. I followed [Dreams of Code's tutorial](https://www.youtube.com/playlist?list=PL05iK6gnYad1sb4iQyqsim_Jc_peZdNXf) to set all of this up.
 
 This configuration is meant for [Python](https://github.com/dreamsofcode-io/neovim-python) and [C++](https://github.com/dreamsofcode-io/neovim-cpp/tree/main) development, and includes features like syntax highlighting, linting, auto-formatting, and debugging.
 
