@@ -1,5 +1,23 @@
 local plugins = {
   {
+    "tpope/vim-fugitive",
+    cmd = { "Git", "G" },
+  },
+  {
+    "lewis6991/gitsigns.nvim",
+    event = "BufReadPre",
+    config = function()
+      require("gitsigns").setup()
+    end,
+  },
+  {
+    "MeanderingProgrammer/render-markdown.nvim",
+    ft = "markdown",
+    config = function()
+      require("render-markdown").setup({})
+    end,
+  },
+  {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
     dependencies = {
@@ -79,8 +97,10 @@ local plugins = {
         "clangd",
         "clang-format",
         "cpptools",
+        "lua-language-server",
       }
     }
   }
 }
 return plugins
+
